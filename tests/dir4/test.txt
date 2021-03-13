@@ -1,0 +1,1 @@
+File: /home/ansible/netbot/setup-tools/tests/dir4/test.txt
