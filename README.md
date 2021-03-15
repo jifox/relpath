@@ -8,7 +8,7 @@ This module eliminates a weakness of `pathlib.Path`. The class `Path` returns
 ## Installation
 
 ```bash
-pip install relpath
+pip install rel-path
 ```
 
 ## Example for error:
