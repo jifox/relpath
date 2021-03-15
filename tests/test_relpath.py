@@ -39,4 +39,4 @@ def test_relative_path():
         print("rel:", dat.get("rel"))
         print("res:", dat.get("res"))
         res = relative_path(dat.get("bas"), dat.get("rel"))
-        assert (str(res) == str(dat.get("res")))
+        assert str(res) == str(dat.get("res"))
