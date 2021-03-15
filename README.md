@@ -2,9 +2,8 @@
 
 ![Python package](https://github.com/jifox/relpath/actions/workflows/tests.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-This module `relpath` eliminates the weakness of pathlib.Path
-that a Valuen error no relative path will be returned if the
-directory is not a subdirectory of the base Path.
+This module eliminates a weakness of `pathlib.Path`. The class `Path` returns
+`ValueError` if the relative-path is not a subdirectory of the base-path.
 
 ## Installation
 
