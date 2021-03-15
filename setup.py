@@ -14,7 +14,7 @@ with open("README.md", "r") as stream:
 setup(
     name='rel-path',
     packages=find_packages(),
-    version='1.0.0',
+    version='1.0.1',
     description='Get relative path.',
     long_description=longdesc,
     long_description_content_type="text/markdown",

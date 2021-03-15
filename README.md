@@ -11,6 +11,9 @@ This module eliminates a weakness of `pathlib.Path`. The class `Path` returns
 pip install rel-path
 ```
 
+- [View on PyPi](https://pypi.org/project/rel-path/)
+- [View on GitHub](https://github.com/jifox/relpath)
+
 ## Example for error:
 
 ```python
