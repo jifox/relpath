@@ -21,13 +21,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint black pytest mypy
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Reformat with black
+      run: |
+        black relpath tests
     - name: Lint with pylint
       run: |
-        # stop the build if there are Python syntax errors or undefined names
         pylint relpath
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        black relpath tests
+    - name: Test with mypy
+      run: |
         mypy relpath
     - name: Test with pytest
       run: |
-        pytest
+        pytest relpath
+
+    
