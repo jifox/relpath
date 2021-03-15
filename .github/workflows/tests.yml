@@ -32,6 +32,6 @@ jobs:
         mypy relpath
     - name: Test with pytest
       run: |
-        pytest relpath
+        pytest
 
     
