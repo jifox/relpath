@@ -1,6 +1,6 @@
 # [relpath](https://github.com/jifox/relpath.git) - relative path module
 
-![Python package](https://github.com/jifox/relpath/actions/workflows/python-package.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+![Python package](https://github.com/jifox/relpath/actions/workflows/tests.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This module `relpath` eliminates the weakness of pathlib.Path
 that a Valuen error no relative path will be returned if the
