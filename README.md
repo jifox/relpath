@@ -1,6 +1,6 @@
 # [relpath](https://github.com/jifox/relpath.git) - relative path module
 
-![Python package](https://github.com/jifox/relpath/actions/workflows/tests.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+![Python package](https://github.com/jifox/relpath/actions/workflows/tests.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)  [![Known Vulnerabilities](https://snyk.io/test/github/jifox/relpath/badge.svg)](https://snyk.io/test/github/jifox/relpath)
 
 This module eliminates a weakness of `pathlib.Path`. The class `Path` returns
 `ValueError` if the relative-path is not a subdirectory of the base-path.
