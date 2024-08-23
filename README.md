@@ -2,8 +2,7 @@
 
 ![Python package](https://github.com/jifox/relpath/actions/workflows/tests.yml/badge.svg)  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)  [![Known Vulnerabilities](https://snyk.io/test/github/jifox/relpath/badge.svg)](https://snyk.io/test/github/jifox/relpath)
 
-This module eliminates a weakness of `pathlib.Path`. The class `Path` returns
-`ValueError` if the relative-path is not a subdirectory of the base-path.
+This module addresses a limitation of the `pathlib.Path` class. When using `Path`, if the relative path is not a subdirectory of the base path, it raises a `ValueError`. However, with this module, that weakness is eliminated.
 
 ## Installation
 
@@ -41,6 +40,42 @@ print(relative_path(base, rel))
 ../
 ```
 
+## Configure PyPi API Token
+
+[Poetry](https://python-poetry.org/) is used to manage the package.
+[How to publish](https://www.digitalocean.com/community/tutorials/how-to-publish-python-packages-to-pypi-using-poetry-on-ubuntu-22-04)
+
+To configure the PyPi API token, use the following command once:
+
+```bash
+# Run once to set the PyPi API token
+set +o history
+poetry config pypi-token.pypi '<your-pypi-token>'
+set -o history
+
+# Build the package
+poetry build
+
+# Publish the package
+poetry publish
+```
+
+
+
 ## Support
 
-If you find any problems with relpath module, please report them to GitHub, and I will respond when possible. Code contributions are always welcome, and ideas for new modules, or additions to existing modules, are also appreciated.
+If you encounter any issues with the relpath module, please report them on GitHub. I will respond as soon as possible. Contributions to the code are always welcome, and I appreciate ideas for new modules or improvements to existing ones.
+
+
+# Change Log
+
+## [1.0.2] - 2024-08-23
+
+### Added
+
+- Added support for poetry
+- Added Change Log to README.md
+
+### Removed
+
+- Support for Python 3.6, 3.7, and 3.7
