@@ -2,7 +2,7 @@
 name = "rel-path"
 # Primary package version gets set here. This is used for publishing, and once
 # installed, `nautobot.__version__` will have this version number.
-version = "1.0.2"
+version = "1.0.3"
 description = "Get relative path."
 authors = ["Josef Fuchs <josef.fuchs@j-fuchs.at>"]
 license = "Apache-2.0"

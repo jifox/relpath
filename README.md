@@ -69,6 +69,12 @@ If you encounter any issues with the relpath module, please report them on GitHu
 
 # Change Log
 
+## [1.0.3] - 2024-08-23
+
+### Fixed
+
+- Fixed the Github Actions for python tests
+
 ## [1.0.2] - 2024-08-23
 
 ### Added
