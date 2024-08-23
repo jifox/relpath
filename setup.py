@@ -14,7 +14,7 @@ with open("README.md", "r") as stream:
 setup(
     name='rel-path',
     packages=find_packages(),
-    version='1.0.1',
+    version='1.0.2',
     description='Get relative path.',
     long_description=longdesc,
     long_description_content_type="text/markdown",
@@ -26,6 +26,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Topic :: Software Development :: Libraries',
         'Typing :: Typed'
     ],
